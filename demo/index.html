@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.special.dnd.js"></script>
+    <script type="text/javascript" src="../formation.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $('form').formation();
+      });
+    </script>
+    
+    <style type="text/css">
+      form {
+        border: 1px solid #CCC;
+        height: 300px;
+        padding:20px;
+        border:1px solid #DDDDDD;
+        background: #f0f0f0;
+      }
+      
+      .toolbar {
+        background-color: red;
+        height:300px;
+      }
+      
+      form .drop-message {
+
+
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <h1>Formation</h1>
+      <h2 class="alt">Use the fields in the toolbar below to drag them into the form</h2>
+    </div>
+    <form>
+
+      <div class="drop-message">Drop Here</div>
+    </form>
+    <div class="">
+  </body>
+</html>
